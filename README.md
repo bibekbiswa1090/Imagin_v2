@@ -107,17 +107,7 @@ MAPK10_GENTECIN_UO126_RFP_1.tif  → treatment: MAPK10_GENTECIN, inhibitor: UO12
 
 ---
 
-## Learnings
 
-- Learned how microscopy TIFF files are structured (8-bit, 16-bit, RGB stacks) and how to handle them programmatically
-- Understood Otsu's thresholding mathematically — minimising intra-class variance to find the optimal segmentation threshold dynamically per image
-- Implemented the CTCF/IntDen formula correctly with background subtraction, making fluorescence values biologically interpretable
-- Built a responsive multi-threaded Tkinter GUI that keeps the UI live during long analysis runs
-- Packaged a full Python scientific stack into a portable `.exe` using PyInstaller
-
-The most satisfying moment was when the program finally produced usable, interpretable data — seeing the CSV populate with real IntDen values and channel ratios that directly reflected the biology of the experiment.
-
----
 
 ## Project Structure
 
